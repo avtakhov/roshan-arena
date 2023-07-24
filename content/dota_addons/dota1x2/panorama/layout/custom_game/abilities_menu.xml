@@ -1,0 +1,21 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/abilities_menu.css"/>
+    </styles>
+
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/abilities_menu.js"/>
+    </scripts>
+
+    <snippets>
+        <snippet name="ClickableAbility">
+            <Panel id="abilityContainer" class="AbilityContainer">
+                <DOTAAbilityImage id="abilityImage" showtooltip="true"/>
+            </Panel>
+        </snippet>
+    </snippets>
+
+    <Panel class="AbilitySelectionMenu">
+        <Label id="abilitySelectionMenuHeader" text="沃草泥马"/>
+    </Panel>
+</root>

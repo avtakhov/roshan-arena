@@ -1,0 +1,52 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	"npc_dota_hero_pudge"
+	{
+		"override_hero"				"npc_dota_hero_pudge"
+		"ModelScale" 				"1.5"
+		"VisionNighttimeRange"		"1200"
+	}
+	"npc_dota_hero_night_stalker"
+	{
+		"override_hero"				"npc_dota_hero_night_stalker"
+		"ModelScale" 				"1.5"
+	}
+	"npc_dota_hero_undying"
+	{
+		"override_hero"	    		"npc_dota_hero_undying"
+		"ModelScale" 				"1.5"
+		"VisionNighttimeRange"		"1200"
+	}
+
+    "npc_dota_hero_tiny"
+    {
+        "override_hero"				"npc_dota_hero_tiny"
+        "ModelScale" 				"1.5"
+		"VisionNighttimeRange"		"1200"
+    }
+
+    "npc_dota_hero_tusk"
+    {
+        "override_hero"				"npc_dota_hero_tusk"
+        "ModelScale" 				"1.5"
+		"VisionNighttimeRange"		"1200"
+    }
+
+    "npc_dota_hero_primal_beast"
+    {
+        "override_hero"				"npc_dota_hero_primal_beast"
+        "ModelScale" 				"1.5"
+		"VisionNighttimeRange"		"1200"
+    }
+
+    "npc_dota_hero_spirit_breaker"
+    {
+        "override_hero"				"npc_dota_hero_spirit_breaker"
+        "ModelScale" 				"1.5"
+		"VisionNighttimeRange"		"1200"
+    }
+
+}

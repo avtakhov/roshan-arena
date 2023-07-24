@@ -1,0 +1,39 @@
+.AbilitySelectionMenu {
+    background-color: rgba(0, 0, 0, 0.6);
+    horizontal-align: right;
+    vertical-align: center;
+    border-radius: 30px;
+    width: 162px;
+    height: fit-children;
+    max-height: 85%;
+    margin: 2%;
+    overflow: clip;
+    flow-children: down;
+}
+
+.AbilityContainer {
+    width: 100px;
+    height: 100px;
+    margin-top: 9%;
+    horizontal-align: center;
+    padding: 2px;
+}
+
+.AbilityContainer:hover {
+    padding: 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#abilityImage {
+    width: 100%;
+    height: 100%;
+}
+
+#abilitySelectionMenuHeader {
+    font-size: 23px;
+    margin-top: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    horizontal-align: center;
+}

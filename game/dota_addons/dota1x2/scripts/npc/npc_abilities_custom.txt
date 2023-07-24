@@ -1,0 +1,189 @@
+// Dota Heroes File
+"DOTAAbilities"
+{
+    "roshan_accumulate_damage"
+    {
+        "BaseClass"               "ability_lua"
+        "ScriptFile"              "roshan/ability_roshan_accumulate_damage"
+        "AbilityTextureName"      "roshan_accumulate_damage"
+        "MaxLevel"                "1"
+
+        "AbilityType"            "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"        "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+        "AbilitySpecial"
+        {
+            "01"
+            {
+            	"var_type"					"FIELD_INTEGER"
+            	"damage_per_stack"	        "80"
+            }
+          }
+    }
+
+
+    "roshan_penalty"
+    {
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "roshan/ability_roshan_penalty"
+        "AbilityTextureName"            "roshan_penalty"
+        "AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"FightRecapLevel"				"2"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "MaxLevel"                      "1"
+        "AbilityCooldown"				"0.1"
+        "AbilityManaCost"				"0"
+
+        "AbilityValues"
+        {
+            "stack_number"		"9999"
+        }
+    }
+
+    "multicast"
+    {
+        "BaseClass"						"ability_lua"
+        "ScriptFile"					"additional_abilities/multicast"
+        "AbilityTextureName"			"additional/multicast"
+        "AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+        "RequiredLevel"					"-1"
+        "FightRecapLevel"				"2"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastAnimation"			"ACT_INVALID"
+        "MaxLevel"                      "1"
+
+        "AbilitySpecial"
+        {
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"multicast_2_times"		"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"multicast_3_times"		"15"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"multicast_4_times"		"5"
+			}
+            "04"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "delay"                 "0.7"
+            }
+        }
+    }
+
+    "mind_breaker"
+    {
+        "BaseClass"						"ability_lua"
+        "ScriptFile"					"additional_abilities/mind_breaker"
+        "AbilityTextureName"			"additional/mind_breaker"
+        "AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+        "RequiredLevel"					"-1"
+        "FightRecapLevel"				"2"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastAnimation"			"ACT_INVALID"
+        "MaxLevel"                      "1"
+
+        "AbilitySpecial"
+        {
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_count"		    "5"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mute_duration"	    	"1.9"
+			}
+        }
+    }
+
+    "shadow_dance"
+    {
+        "BaseClass"						"ability_lua"
+        "ScriptFile"					"additional_abilities/shadow_dance"
+        "AbilityTextureName"			"additional/shadow_dance"
+        "AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+        "RequiredLevel"					"-1"
+        "FightRecapLevel"				"2"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastAnimation"			"ACT_INVALID"
+        "MaxLevel"                      "1"
+
+        "AbilitySpecial"
+        {
+            "01"
+            {
+                "var_type"				"FIELD_INTEGER"
+                "bonus_movement_speed"	"20"
+            }
+            "02"
+            {
+                "var_type"				"FIELD_FLOAT"
+                "bonus_regen"	    	"60"
+            }
+            "03"
+            {
+                "var_type"				"FIELD_FLOAT"
+                "activation_delay"	    "0.5"
+            }
+            "04"
+            {
+                "var_type"				"FIELD_FLOAT"
+                "neutral_disable"	    "2."
+            }
+        }
+    }
+
+    "gold_tick"
+    {
+        "BaseClass"						"ability_lua"
+        "ScriptFile"					"additional_abilities/gold_tick"
+        "AbilityTextureName"			"additional/gold_tick_original"
+        "AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+        "RequiredLevel"					"-1"
+        "FightRecapLevel"				"2"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityCastAnimation"			"ACT_INVALID"
+        "MaxLevel"                      "1"
+
+        "AbilityValues"
+        {
+            "gold_per_second"           "10"
+        }
+    }
+
+
+    "roshan_gift"
+    {
+        "BaseClass"						"ability_lua"
+        "ScriptFile"					"additional_abilities/roshan_gift"
+        "AbilityTextureName"			"additional/roshan_gift"
+        "AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+        "RequiredLevel"					"-1"
+        "FightRecapLevel"				"2"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityCastAnimation"			"ACT_INVALID"
+        "MaxLevel"                      "1"
+    }
+
+    "wukongs_command"
+    {
+        "BaseClass"						"ability_lua"
+        "ScriptFile"					"additional_abilities/wukongs_command"
+        "AbilityTextureName"			"additional/wukongs_command"
+        "AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+        "RequiredLevel"					"-1"
+        "FightRecapLevel"				"2"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityCastAnimation"			"ACT_INVALID"
+        "MaxLevel"                      "1"
+    }
+
+}

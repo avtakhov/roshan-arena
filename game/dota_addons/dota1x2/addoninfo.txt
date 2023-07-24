@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+    "IsPlayable"	    "1"
+	"maps"              "dota1x2"
+	"dota1x2" {
+	    "MaxPlayers"    3
+	    "TeamCount"     2
+	}
+}
