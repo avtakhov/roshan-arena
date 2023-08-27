@@ -3,7 +3,7 @@
 	"Language"		"russian"
 	"Tokens"
 	{
-		"addon_game_name"			"Dota 1x2 [beta]"
+		"addon_game_name"			"Рошаностояние"
 
 		"DOTA_Tooltip_modifier_save_aura" "Безопасность"
 		"DOTA_Tooltip_modifier_save_aura_Description" "Рошан игнорирует вас"
@@ -21,22 +21,22 @@
 		"DOTA_Tooltip_ability_roshan_penalty"               "Roshan penalty"
 		"DOTA_Tooltip_ability_roshan_penalty_Description"   "Рошан применяет %stack_number% стаков fury swipes к команде сил тьмы, когда умирает герой сил света"
 
-        "DOTA_Tooltip_Ability_mind_breaker"                 "Mind breaker [dota1x2]"
+        "DOTA_Tooltip_Ability_mind_breaker"                 "Mind breaker [override]"
         "DOTA_Tooltip_Ability_mind_breaker_Description"     "Накладывает заглушение, истощение и замедление на %mute_duration% секунд каждые %attack_count% атак"
 
-        "DOTA_Tooltip_Ability_multicast"                 "Multicast [dota1x2]"
+        "DOTA_Tooltip_Ability_multicast"                 "Multicast [override]"
         "DOTA_Tooltip_Ability_multicast_Description"     "Дает возможность многократного применения для некоторых способностей"
 
-        "DOTA_Tooltip_Ability_gold_tick"                 "Gold [dota1x2]"
+        "DOTA_Tooltip_Ability_gold_tick"                 "Gold [override]"
         "DOTA_Tooltip_Ability_gold_tick_Description"     "Герой получает %gold_per_second% дополнительного золота каждую секунду"
 
-        "DOTA_Tooltip_Ability_shadow_dance"              "Shadow dance [dota1x2]"
+        "DOTA_Tooltip_Ability_shadow_dance"              "Shadow dance [override]"
         "DOTA_Tooltip_Ability_shadow_dance_Description"  "Когда герой не виден вражеской команде, он получает дополнительную скорость передвижения и регенерацию здоровья"
 
-        "DOTA_Tooltip_Ability_roshan_gift"               "Roshan gift [dota1x2]"
-        "DOTA_Tooltip_Ability_roshan_gift_Description"   "Владелец способности получает случайный подарок от Рошана (за исключением refresher shard)"
+        "DOTA_Tooltip_Ability_roshan_gift"               "Roshan gift [override]"
+        "DOTA_Tooltip_Ability_roshan_gift_Description"   "Владелец способности получает случайный подарок от Рошана"
 
-        "DOTA_Tooltip_Ability_wukongs_command"               "Wukong's command [dota1x2]"
+        "DOTA_Tooltip_Ability_wukongs_command"               "Wukong's command [override]"
         "DOTA_Tooltip_Ability_wukongs_command_Description"   "Около героя появляются неуязвимые союзные юниты, которые атакуют врага"
 	}
 }

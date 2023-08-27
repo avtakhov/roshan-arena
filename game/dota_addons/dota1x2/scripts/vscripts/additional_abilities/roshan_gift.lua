@@ -3,7 +3,8 @@ roshan_gift = {}
 ITEMS_DROP = {
     "item_cheese",
     "item_ultimate_scepter_roshan",
-    "item_aegis"
+    "item_aegis",
+    "item_refresher_shard"
 }
 
 function roshan_gift:OnUpgrade()

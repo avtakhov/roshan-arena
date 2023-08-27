@@ -73,7 +73,10 @@ ALLOWED_GOOD_HEROES = {
     "npc_dota_hero_techies",
     "npc_dota_hero_snapfire",
     "npc_dota_hero_nevermore",
-    "npc_dota_hero_skywrath_mage"
+    "npc_dota_hero_skywrath_mage",
+    "npc_dota_hero_dark_willow",
+    "npc_dota_hero_zuus",
+    "npc_dota_hero_gyrocopter"
 }
 
 ALLOWED_BAD_HEROES = {
@@ -83,7 +86,9 @@ ALLOWED_BAD_HEROES = {
     "npc_dota_hero_tiny",
     "npc_dota_hero_tusk",
     "npc_dota_hero_primal_beast",
-    "npc_dota_hero_spirit_breaker"
+    "npc_dota_hero_spirit_breaker",
+    "npc_dota_hero_tidehunter",
+    "npc_dota_hero_ogre_magi"
 }
 
 HERO_KILL_GOLD_AMOUNT = 100

@@ -20,6 +20,18 @@
 		"ModelScale" 				"1.5"
 		"VisionNighttimeRange"		"1200"
 	}
+    "npc_dota_hero_ogre_magi"
+    {
+        "override_hero"	    		"npc_dota_hero_ogre_magi"
+        "ModelScale" 				"1.5"
+        "VisionNighttimeRange"		"1200"
+    }
+    "npc_dota_hero_tidehunter"
+    {
+        "override_hero"	    		"npc_dota_hero_tidehunter"
+        "ModelScale" 				"1.5"
+        "VisionNighttimeRange"		"1200"
+    }
 
     "npc_dota_hero_tiny"
     {
